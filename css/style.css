@@ -31,6 +31,13 @@ body {
     font-weight: 400;
     letter-spacing: 1rem; }
 
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+
 .header {
   height: 95vh;
   background: linear-gradient(to right bottom, rgba(76, 85, 98, 0.5), rgba(46, 52, 60, 0.6)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1144164/hero_med.jpeg);

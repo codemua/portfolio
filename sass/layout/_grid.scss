@@ -1,0 +1,13 @@
+.row {
+  //10 pixels = 1rem
+  //1140px standard width
+  max-width: $grid-width;
+  background-color: #eee;
+  //trick to center block elements inside of another block element
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+
+}
